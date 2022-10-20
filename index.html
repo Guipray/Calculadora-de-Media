@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Calculadora de média</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+  <head>
+    <title> Imersão Dev Alura - Aula 01</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="page-title">
+      Calculadora de Média!</h1>
+      <p class="page-subtitle">
+      Descubra qual a sua média de nota dos quatro bimestres!
+      </p>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      <p class="aviso">
+        Apenas valores entre 0 e 10!
+      </p>
+      <div class="botoes">
+        <input type="number" id="nota1" placeholder="1ª nota" /><br>
+        <button onClick="primeiraNota()" id="botaoNota1">Enviar</button>
+        <input type="number" id="nota2" placeholder="2ª nota" /><br>
+        <button onClick="segundaNota()" id="botaoNota2">Enviar</button>
+        <input type="number" id="nota3" placeholder="3ª nota" /><br>
+        <button onClick="terceiraNota()" id="botaoNota3">Enviar</button>
+        <input type="number" id="nota4" placeholder="4ª nota" /><br>
+        <button onClick="quartaNota()" id="botaoNota4">Enviar</button>
+        
+      </div>
+      <div class="botaoMedia">
+        <button onClick="media()" id="botaoMedia">Calcular Média</button>
+      </div>
+      <div id="resultado" class="resultado"></div>
+    </div>
+    <a href="https://alura.com.br/" target="_blank">
+    <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+    </a>
+  </body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
